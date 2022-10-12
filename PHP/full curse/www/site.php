@@ -8,14 +8,14 @@
 </head>
 <body>
 
-    <form action="site.php" method="get">
-        Nome: <input type="text" name="nome">
+    <form action="site.php" method="post">
+        Senha: <input type="password" name="senha">
     <input type="submit">
     </form>
     <br><br>    
 
     <?php 
-        echo $_GET["nome"];    
+        echo $_POST["senha"];
     ?>
 
 </body>

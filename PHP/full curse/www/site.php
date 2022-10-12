@@ -7,15 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <!-- tag php - tudo que estiver dentro dessa tag sera
-         considerado um codigo php -->
+
     <?php 
+    $nomePessoa = "Gabriel";
+    $idadePessoa = 18;
     
-    // esse é o sysout, console.log do php
-    echo("<h1> Olá Mundo </h1>");
-    echo "<hr>";
-    echo "Esse é o meu primeiro contato com o php!"
+    echo "Era uma vez <br>";
+    echo "$nomePessoa digitando <br>";
+    echo "$nomePessoa gostava muito de digitar<br>";
+    echo "ele(a) tinha $idadePessoa anos de idade";
+    echo "<strong> Fim </strong>" 
     ?>
 
 </body>

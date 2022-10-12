@@ -12,6 +12,8 @@
         $friends = array("Kevin", "Karen", "Oscar", "jim"); 
         $friends[1] = "trocou";
         echo $friends[1];
+        $friends[4] = "mais um";
+        echo count($friends);
     ?>
 
 </body>

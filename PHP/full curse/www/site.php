@@ -8,14 +8,10 @@
 </head>
 <body>
 
-    <form action="site.php" method="post">
-        Senha: <input type="password" name="senha">
-    <input type="submit">
-    </form>
-    <br><br>    
-
     <?php 
-        echo $_POST["senha"];
+        $friends = array("Kevin", "Karen", "Oscar", "jim"); 
+        $friends[1] = "trocou";
+        echo $friends[1];
     ?>
 
 </body>

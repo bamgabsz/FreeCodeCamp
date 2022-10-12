@@ -9,12 +9,14 @@
 <body>
     
 <?php
-
-    function sayHi($name){
-        echo "Hello $name";
+    function cube($num){
+        $result = pow($num,3);
+        return $result;
     }
 
-    sayHi("mike");
+    $cubeResult = cube(4);
+    echo $cubeResult;
+    echo cube(2);
 ?>
 
 </body>

@@ -9,20 +9,35 @@
 <body>
 
     <?php 
-        // string
-        $frase = "olá eu sou uma frase";
-        // int
-        $idade = 34; // or 3.4
-        // float
-        $valor = 1.50;
-        // boolean
-        $éHomem = true;
-        // null
-        echo "ola";
-        echo $frase;
-        echo 15;
+       
+        $frase = "Academia da Girafa";
 
+        // funções/metodos em strings
 
+        // tudo pra minusculo
+        echo strtolower($frase);
+        echo "<br>";
+        // tudo pra maiusculo
+        echo strtoupper($frase);
+        echo "<br>";
+        // tamanho da string
+        echo strlen($frase);
+        echo "<br>";
+        // pegar uma determinada letra
+        echo $frase[1];
+        echo "<br>";
+
+        $frase[1] = "8";
+        echo $frase; 
+        echo "<br>";
+
+        echo str_replace("Girafa","Panda", $frase);
+        echo "<br>";
+
+        echo str_replace("rafa","ro", $frase);
+        echo "<br>";
+
+        echo substr($frase,8,3);
     ?>
 
 </body>

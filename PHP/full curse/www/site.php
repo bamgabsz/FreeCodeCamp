@@ -13,8 +13,9 @@
     <?php 
     
     // esse é o sysout, console.log do php
-    echo("Olá Mundo")
-    
+    echo("<h1> Olá Mundo </h1>");
+    echo "<hr>";
+    echo "Esse é o meu primeiro contato com o php!"
     ?>
 
 </body>

@@ -9,20 +9,13 @@
 <body>
 
     <form action="site.php" method="get">
-    Cor: <input type="text" name="cor"> <br>
-    Coisa: <input type="text" name="coisa"> <br>
-    Alguem: <input type="text" name="alguem"> <br>
+        Nome: <input type="text" name="nome">
     <input type="submit">
     </form>
+    <br><br>    
 
     <?php 
-        $cor = $_GET["cor"];
-        $coisa = $_GET["coisa"];
-        $alguem = $_GET["alguem"];
-
-        echo "Rosas são $cor <br>";
-        echo "$coisa são Azuis <br>";
-        echo "$alguem te amo"
+        echo $_GET["nome"];    
     ?>
 
 </body>

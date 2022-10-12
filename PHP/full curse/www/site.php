@@ -9,14 +9,20 @@
 <body>
 
     <?php 
-    $nomePessoa = "Gabriel";
-    $idadePessoa = 18;
-    
-    echo "Era uma vez <br>";
-    echo "$nomePessoa digitando <br>";
-    echo "$nomePessoa gostava muito de digitar<br>";
-    echo "ele(a) tinha $idadePessoa anos de idade";
-    echo "<strong> Fim </strong>" 
+        // string
+        $frase = "olá eu sou uma frase";
+        // int
+        $idade = 34; // or 3.4
+        // float
+        $valor = 1.50;
+        // boolean
+        $éHomem = true;
+        // null
+        echo "ola";
+        echo $frase;
+        echo 15;
+
+
     ?>
 
 </body>

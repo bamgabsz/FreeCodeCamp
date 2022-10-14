@@ -9,14 +9,14 @@
 <body>
     
 <?php
-    function cube($num){
-        $result = pow($num,3);
-        return $result;
+        $isMale = true;
+
+    if ($isMale == true) {
+        echo "É macho";
+    } elseif($isMale == !true) {
+        echo "É macha";  
     }
 
-    $cubeResult = cube(4);
-    echo $cubeResult;
-    echo cube(2);
 ?>
 
 </body>
